@@ -1,1 +1,15 @@
 
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+ 
+    <servlet>
+        <servlet-name>FoodOrderServlet</servlet-name>
+        <servlet-class>com.foodapp.FoodOrderServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>FoodOrderServlet</servlet-name>
+        <url-pattern>/order</url-pattern>
+    </servlet-mapping>
+ 
+</web-app>
